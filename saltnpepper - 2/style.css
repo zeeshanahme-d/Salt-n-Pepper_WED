@@ -1,0 +1,502 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Philosopher';
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imges/ba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.container0 {
+    max-width: 100% !important;
+}
+
+.my-nav {
+    background: #201f1f;
+}
+
+.my-btn {
+    border: red 1px solid;
+    color: red;
+}
+
+.my-btn:hover {
+    background-color: red;
+    border: red 1px solid;
+}
+
+.my-navbar {
+    color: whitesmoke !important;
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 1px;
+    font-size: 1.3vmax;
+}
+
+.my-navbar>li {
+    margin-left: 20px;
+}
+
+.my-navbar>li:hover {
+    color: red;
+}
+
+.my-icon {
+    background-color: #fff;
+}
+
+.line {
+    width: 100%;
+    height: 25px;
+    background-color: #201f1f;
+    margin-top: -30px;
+}
+
+.line2 {
+    width: 100%;
+    height: 20px;
+    background-color: #201f1f;
+}
+
+.line1 {
+    width: 100%;
+    height: 1.5px;
+    background-color: red;
+    /* margin-top: 10px; */
+}
+
+.div1 img {
+    width: 10%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* .mean1{
+  
+} */
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.mean2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+
+}
+
+.mean2 .wt {
+    color: #fff;
+    font-family: 'Nanum Myeongjo' !important;
+    font-size: 8vw;
+    letter-spacing: 6px;
+    /* margin-left: 20px; */
+    font-weight: 100;
+
+}
+
+.mean2 img {
+    position: absolute;
+    width: 25%;
+    margin-top: 150px;
+}
+
+.mean2 .R {
+    position: absolute;
+    margin-top: 260px;
+    color: #fff;
+    /* font-family: "Josefin Sans"; */
+    font-size: 1.9vmax;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.mean3 {
+    width: 80%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mean3 h3 {
+    color: #fff;
+    font-family: "Josefin Sans";
+    font-size: 4vmax;
+    font-weight: 200;
+}
+
+.mean3 p {
+    position: absolute;
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 200;
+    margin-top: 100px;
+    font-family: 'Philosopher';
+}
+
+.mean4 {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-content:space-evenly; */
+    margin-top: 50px;
+}
+
+.line3 {
+    margin-top: 30px;
+    width: 100%;
+    height: 3px;
+    background-color: red;
+}
+
+.mean5 {
+    background-color: #201f1f;
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+}
+
+.div8 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div9 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div10,
+.div11 {
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div10 h2 {
+    color: red;
+    font-family: "Josefin Sans";
+    font-size: 3vmax;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.div11 h5 {
+    color: #fff;
+    font-family: "Josefin Sans";
+    font-size: 1.7vmax;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+h4 {
+    position: relative;
+    /* margin-top: -350px; */
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 1.5vw;
+}
+
+h5 {
+    position: relative;
+    /* margin-top: -100px; */
+    color: #FFFFFF;
+    font-size: 1.3vw;
+}
+h6{
+    color: #ffffff; 
+}
+h2{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.h4{
+   display: flex;
+   justify-content: center;
+   font-size: 2vw;
+    color: #ffffff;
+    letter-spacing: 1px;  
+}
+
+.mean6 {
+    background-color: #201f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img5 {
+    margin-top: 20px;
+}
+
+.row {
+    display: inline-block;
+}
+
+@media screen and (max-width:920px) {
+    .div22 {
+        display: block;
+    }
+    .img1{
+        width: 50% !important;
+    }
+}
+@media screen and (max-width:550px) {
+    .img1{
+        margin-top: 100px !important;
+    }
+    .my-navbar{
+        display:block;
+        font-size: 5vw;
+    }
+    .my-navbar>li{
+        list-style-type: circle;
+    }
+    .p5{
+        font-size: 2.5vw !important;
+    }
+    .R{
+        margin-top: 200px !important;
+    }
+    .div10 h2{
+        font-size:8vw;
+    }
+    .div11 h5{
+        font-size: 3vw;
+
+    }
+    .div9 img{
+        width: 40%;
+    }
+    .div8 img{
+        width: 40%;
+    }
+    .div23 h1{
+        font-size: 5vw !important;
+    }
+    h4{
+        font-size: 3.5vw !important;
+    }
+    h5{
+        font-size: 2.5vw;
+    }
+   .div24{
+    width: 100% !important;
+    font-size: 4vw !important;
+    height: 20vh !important;
+   }
+   .mean7{
+    display: block !important;
+   }
+   .my-icon1{
+font-size: 9vw !important;
+   }
+   .div24>p{
+    margin-top: 40px !important;
+   }
+   .img8{
+    width: 40% !important;
+   }
+   .footer{
+    display: block !important;
+    margin-top: -10px;
+   }
+   .div31> ul{
+ right: 10px;
+ position: relative;
+   }
+   
+   .img8{
+margin-top: 0px !important;
+   }
+   .h{
+    font-size: 3vmax;
+   }
+   .div40{
+    margin-top: -20px !important;
+   }
+}
+
+.line4 {
+    width: 100%;
+    height: 3px;
+    background-color: red;
+}
+.div23{
+    position: relative;
+    background-color: #201f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div23>h1{
+    margin-top: 40px;
+    color: red;
+    font-size: 4vw;
+}
+.mean7{
+    background-color: #201f1f;
+    display: flex;
+    justify-content: center;
+   
+}
+.div24{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 1.6vw;
+    width: 40%;
+    height: 30vh;
+    background:#fff;
+    margin-right: 10px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 5px;
+}
+.div24>p{
+    margin-top: 100px;
+}
+.div25{
+    width: 40%;
+    height: 30vh;
+    background:rgb(255, 255, 255);
+} 
+.my-icon1{
+    font-size: 4vw;
+    color: red;
+    position: absolute;
+   height: 30px;
+}
+
+
+/* footer woerk start */
+
+.footer{
+    background-color: #201f1f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div30{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #201f1f;
+}
+/* .div31{
+    margin-top: -0px;
+} */
+.div31> ul> h2{
+    font-size: 25px;
+    position: relative;
+    right: 30px;
+    text-decoration: underline red 2px;
+}
+.div31> ul>h3 {
+    font-size: 25px;
+    position: relative;
+    right:45;
+    color: #fff;
+    text-decoration: underline red 2px;
+}
+.div31> ul{
+    margin-left: 20px;
+    list-style-type: none;
+    font-size: 2.5vh;
+}
+.div31> ul> li> a{
+color: whitesmoke;
+text-decoration: none;
+}
+.div31> ul> li> a:hover{
+color: red;
+text-decoration: underline;
+}
+.div32{
+    color: #fff;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    border-radius: 100%;
+    position: relative;
+    right: 20px;
+    top: 23px;
+    background-attachment: fixed;
+    color: #000000;
+    font-weight: bold;
+}
+.div33{
+   display: flex;
+   justify-content: center ;
+   align-items: center;
+   background-color:#201f1f;
+}
+.img8{
+    
+    margin-top: -200px;
+}
+.div35{
+    background-color: red;
+    justify-self: center;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    border-radius: 100%;
+    position: relative;
+    background-attachment: fixed;
+    color: #000000;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.div36{
+    width: 30%;
+}
+.img9{
+    width: 100% !important;
+    margin-left: -1vmax;
+}
+.div36>img{
+    width: 90%;
+}
+.div40{
+    display: flex;
+    justify-content: center;
+    background: #201f1f;
+}
+.div41>span{
+    color: #FFFFFF;
+}
+.div42{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+}
